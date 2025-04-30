@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Index Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <!-- Ordered list with Roman numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Gallery</li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+        <li>Services</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1578990/pexels-photo-1578990.jpeg" alt="Nature" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Everlyne Wambui</td>
+                <td>Nairobi</td>
+                <td>0712345678</td>
+                <td>everlyne@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Mwende</td>
+                <td>Nakuru</td>
+                <td>0723456789</td>
+                <td>jane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mark Mwangi</td>
+                <td>Eldoret</td>
+                <td>0734567890</td>
+                <td>mark@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>Nakuru</td>
+                <td>0745678901</td>
+                <td>emily@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Maina</td>
+                <td>Mombasa</td>
+                <td>0756789012</td>
+                <td>michael@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
